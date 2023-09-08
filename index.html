@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="container">
+        <div class="resize-container">
+          <div class="title">
+            <h1>Get <span>insights</span> that help your business grow.</h1>
+          </div>
+          <div class="card-description">
+            <p>
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+          <div class="card-stats">
+            <div class="stat-companies">
+              <p class="p-number">10k+</p>
+              <p class="p-type">companies</p>
+            </div>
+            <div class="stat-templates">
+              <p class="p-number">314</p>
+              <p class="p-type">templates</p>
+            </div>
+
+            <div class="stat-queries">
+              <p class="p-number">12M+</p>
+              <p class="p-type">queries</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-image">
+        <div class="img-goes-here"></div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">momorocks111</a>.
+    </div>
+    <script>
+      window.onload = function () {
+        var container = document.querySelector(".container");
+        container.classList.add("show");
+      };
+    </script>
+  </body>
+</html>
